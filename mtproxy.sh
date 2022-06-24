@@ -95,7 +95,7 @@ install(){
 
   if [[ "`uname -m`" != "x86_64" ]];then
     if [ ! -d 'MTProxy' ];then
-      git clone https://github.com/459816302/MTProxy
+      git clone https://github.com/459816302/MTProxy1
     fi;
     cd MTProxy
     make && cd objs/bin
