@@ -16,7 +16,7 @@ Telegram群组：https://t.me/EllerHK
 
 ```bash
 mkdir /home/mtproxy && cd /home/mtproxy
-curl -s -o mtproxy.sh https://raw.githubusercontent.com/459816302/-mtproxy/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
+curl -s -o mtproxy.sh https://raw.githubusercontent.com/expfukck/-mtproxy/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
 ```
 
  ![mtproxy.sh](https://raw.githubusercontent.com/ellermister/mtproxy/master/mtproxy.jpg)
