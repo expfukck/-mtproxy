@@ -177,7 +177,8 @@ config_mtp(){
   done
   
    # config info
-  public_ip=$(curl -s https://api.ip.sb/ip -A Mozilla --ipv4)
+  public_ip=$(curl ip.sb)
+  #public_ip=$(curl -s https://api.ip.sb/ip -A Mozilla --ipv4)
   [ -z "$public_ip" ] && public_ip=$(curl -s ipinfo.io/ip -A Mozilla --ipv4)
   secret=$(head -c 16 /dev/urandom | xxd -ps)
 
